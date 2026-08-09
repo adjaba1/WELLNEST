@@ -19,7 +19,7 @@ risk: {
   severe: "#EF4444"
 },
 button: {
-  primary: "#2563EB",
+  primary: "#1D4ED8",
   success: "#22C55E",
   warning: "#F59E0B",
   danger: "#EF4444"
