@@ -13,3 +13,6 @@ No, you should not share the ".expo" folder. It does not contain any information
 Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
 
 Update README with features
+
+##Contributors
+-Austin Danquah (Troll-farmer) - "Frontend developer"
