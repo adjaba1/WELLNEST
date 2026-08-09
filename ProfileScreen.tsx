@@ -68,16 +68,16 @@ const styles = StyleSheet.create({
    import { colors } from './theme/colors'; // adjust path as needed
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20 },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 },
-  backText: { fontSize: 16, color: colors.button.primary, fontWeight: '600' },
-  title: { fontSize: 22, fontWeight: 'bold', color: colors.text },
-  card: { padding: 20, borderRadius: 16, shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.05, shadowRadius: 8, elevation: 3, backgroundColor: colors.card },
-  label: { fontSize: 14, color: colors.subText, marginBottom: 4 },
-  input: { borderWidth: 1, borderColor: colors.border, borderRadius: 10, padding: 12, fontSize: 16, marginBottom: 16, backgroundColor: colors.card },
-  disabledInput: { backgroundColor: '#f3f4f6', color: colors.subText },
-  saveButton: { borderRadius: 10, overflow: 'hidden', marginTop: 8 },
-  saveButtonInner: { padding: 14, alignItems: 'center' },
-  saveButtonText: { color: '#fff', fontSize: 16, fontWeight: 'bold' },
+ container: { flex: 1, padding: 20 },
+    header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 },
+    backText: { fontSize: 16, color: '#2563EB', fontWeight: '600' },
+    title: { fontSize: 22, fontWeight: 'bold', color: '#111827' },
+    card: { padding: 20, borderRadius: 16, shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.05, shadowRadius: 8, elevation: 3 },
+    label: { fontSize: 14, color: '#6B7280', marginBottom: 4 },
+    input: { borderWidth: 1, borderColor: '#E5E7EB', borderRadius: 10, padding: 12, fontSize: 16, marginBottom: 16, backgroundColor: '#fff' },
+    disabledInput: { backgroundColor: '#f3f4f6', color: '#6b7280' },
+    saveButton: { borderRadius: 10, overflow: 'hidden', marginTop: 8 },
+    saveButtonInner: { padding: 14, alignItems: 'center' },
+    saveButtonText: { color: '#fff', fontSize: 16, fontWeight: 'bold' },
 });
 });
